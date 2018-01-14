@@ -9,6 +9,6 @@ LABEL org.label-schema.vcs-ref=$VCS_REF \
       org.label-schema.schema-version="1.0"
 
 
-RUN apk add --no-cache rsync
+RUN apk add --no-cache rsync openssh-client
 
 # ENTRYPOINT ["/usr/bin/pyup"]
